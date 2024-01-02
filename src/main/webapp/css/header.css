@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+/*Header start*/
+.header
+{
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.menu
+{
+	height: 100px;
+	background-color: rgba(0,0,0,0.2);
+	display: grid;
+	grid-template-columns: 1fr 6fr 1fr 2fr;
+	gap: 10px;
+}
+.logo img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 40%;
+	margin-left: 10px;
+}
+.menu ul
+{
+	display:flex;
+	flex-direction:coloumn;
+	padding-right: 10px;
+	list-style: none;
+	margin: 10px;
+}
+.menu ul li
+{
+	display:inline;
+	position: relative;
+}
+.menu ul li a
+{
+	font-size:1em;
+	font-weight: bold;
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	text-transform: uppercase;
+}
+.menu ul li a:hover
+{
+	padding-top: 5px;
+	background-color:rgba(15, 242, 73, 0.5);
+	border-radius: 10px;
+}
+.nav
+{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+.search
+{
+	max-width: 500px;
+	height: 30px;
+	width: 80%;
+	background-color:white;
+	display: flex;
+	margin: 5px 490px 5px 10px;
+	padding: 5px;
+	outline: none;
+	border: 0px;
+	border-radius: 10px;
+}
+.search input
+{
+	border: none;
+	outline: none;
+	width: 90%;
+}
+.search button
+{
+	width: 100px;
+	height: 30px;
+	border-color:white;
+	display: block;
+	padding: 0;
+	margin-top: 0;
+	color: black;
+}
+.profile img
+{
+    width: 100px;
+    height: 100px;
+}
+.login ul li
+{
+	margin-top: 20px;
+}
+.in_menu
+{
+	display: none;
+}
+.menu ul li:hover .in_menu
+{
+	display:block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	background-color:rgba(15, 242, 73, 0.5);
+	border-radius: 0px;
+}
+.in_menu ul
+{
+	display:flex;
+	flex-direction:row;
+}
+.in_menu ul li
+{
+	width: 100px;
+	padding: 2px;
+	margin: 2px;
+}
+/*Header end*/

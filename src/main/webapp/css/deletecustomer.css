@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/fuel.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    text-align: left;
+}
+
+table td {
+    padding: 8px;
+}
+
+table input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    background-color: #FF0000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #CC0000;
+}
